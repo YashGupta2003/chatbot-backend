@@ -1,0 +1,25 @@
+# ─────────────────────────────────────────────
+# Core web framework
+# ─────────────────────────────────────────────
+fastapi==0.115.6          # High-performance async web framework
+uvicorn[standard]==0.32.1 # ASGI server (with websocket + reload support)
+
+# ─────────────────────────────────────────────
+# AI / LLM
+# ─────────────────────────────────────────────
+groq==0.13.0              # Official Groq Python SDK (async support)
+
+# ─────────────────────────────────────────────
+# Config / env
+# ─────────────────────────────────────────────
+python-dotenv==1.0.1      # Load .env files into os.environ
+
+# ─────────────────────────────────────────────
+# Data validation
+# ─────────────────────────────────────────────
+pydantic==2.10.4          # Data models & validation (FastAPI uses this internally)
+
+# ─────────────────────────────────────────────
+# HTTP (used internally by Groq SDK)
+# ─────────────────────────────────────────────
+httpx==0.28.1             # Async HTTP client
